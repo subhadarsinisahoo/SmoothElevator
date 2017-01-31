@@ -2,11 +2,12 @@
 <widget id="in.smoothelevator.smooth_elevator" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Smooth Elevator</name>
     <description>
-        This is a Elevator company App which is the first Elevator
+        This is a Elevator company App which is the first Elevator company in Odisha.
     </description>
     <author email="support@pocketapp.in" href="http://pocketapp.in">
         PocketApp.in
     </author>
+	 <preference name="windows-identity-name" value="26744SamareshBisoi.SmoothElevator" />
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
@@ -127,6 +128,7 @@
     </platform>
 	
 	<platform name="winphone">
+		<preference name="phonegap-version" value="cli-6.0.0" />
       
     </platform>
 	
